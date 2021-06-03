@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCV.css">
+    <title> Curriculum Vitae </title>
+</head>
+<body>
+
+    <div class="contenedorCV">
+        <div class="cabecera">
+            <div>
+            <img id="imagenCabecera" src="img/fotoCV.jpeg" />
+            </div>
+            <div>
+            <h1> Alejandro Parada </h1>
+            <h2>
+                Programador Java y diseñador de bases de datos
+            </h2>
+            </div>
+        </div>
+        <hr id="separador">
+        <div class="cuerpo">
+            <h3> Formación </h3>
+            <hr class="hrCuerpo">
+            <div class="texto">
+                <li> Año Ingeniería Informática, Cádiz (2016 - 2017) </li>
+                <li> 2 Año Ingeniería Informática (9.1 en Programación), Huelva (2018 - 2020) </li>
+                <li> Técnico Superior en Diseño de Aplicaciones Multiplataforma, Universidad Europea de Madrid (2020 - 2022) </li>
+            </div>
+            <p>
+            <h3> Habilidades </h3>
+            <hr class="hrCuerpo">
+            <div class="texto">
+                <li> Excelentes habilidades de comunicación y creatividad. </li>
+                <li> Buen desempeño tanto trabajando en equipo como individualmente. </li>
+                <li> Capacidad para trabajar bajo presión de forma eficaz. </li>
+                <li> Capacidad para liderar y organizar equipos de forma eficiente. </li>
+            </div>
+            </p>
+            <p>
+            <h3> Experiencia laboral </h3>
+            <hr class="hrCuerpo">
+            <h5> 2017 - 2018 </h5>
+            <div class="texto">
+                Jugando a alto nivel Amateur League Of Legends Asumí el rol de Líder de equipo 
+                y aprendí a trabajar con eficiencia bajo presión.
+            </div>
+            </p>
+            <p>
+                <h5> DICIEMBRE 2018 - FEBRERO 2019 </h5>
+                <div class="texto">
+                    Mejoré mi capacidad de trabajo en equipo, puse a prueba satisfactoriamente mi capacidad para
+                    improvisar y adaptarme a situaciones adversas Oportunidad de adquirir ciertos conocimientos prácticos
+                    de Administración y Dirección de Empresas.
+                </div>
+            </p>
+
+            <div class="contacto">
+                Contacto:
+                <img class="icono" src="icon/telefono.png" onclick="alertaWeb(1)">
+                <img class="icono" src="icon/correo.png" onclick="alertaWeb(2)">
+                <img class="icono" src="icon/linkedin.png" onclick="alertaWeb(3)">
+                <img class="icono" src="icon/github.png" onclick="alertaWeb(4)">
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function alertaWeb(accion) {
+            switch(accion){
+                case 1: window.alert("Telefono de contacto: +34 601 10 50 29");
+                break;
+
+                case 2: window.alert("Correo de contacto: AlejandroParada98@gmail.com");
+                break;
+
+                case 3: window.alert("Perfil de LinkedIn: https://www.linkedin.com/in/aleparada98/");
+                break;
+
+                case 4: window.alert("Perfil de Github: https://github.com/AleParada98");
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
